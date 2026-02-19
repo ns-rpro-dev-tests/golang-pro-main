@@ -4,6 +4,8 @@ import (
 	"fmt"
 
 	"pro-lib"
+
+	_ "github.com/twharmon/gouid"
 )
 
 func main() {

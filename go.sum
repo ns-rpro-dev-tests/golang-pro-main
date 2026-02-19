@@ -2,3 +2,5 @@ github.com/google/go-cmp v0.7.0 h1:wk8382ETsv4JYUZwIsn6YpYiWiBsYLSJiTsyBybVuN8=
 github.com/google/go-cmp v0.7.0/go.mod h1:pXiqmnSA92OHEEa9HXL2W4E7lf9JzCmGVUdgjX3N/iU=
 github.com/ns-rpro-dev-tests/golang-pro-lib/libs/src/ns v0.0.0-20260219031232-e6910bd8fb97 h1:k6XI4WHqDF7OD/QZr/54LsiGMXdcYFvGfbYas9OQ1s4=
 github.com/ns-rpro-dev-tests/golang-pro-lib/libs/src/ns v0.0.0-20260219031232-e6910bd8fb97/go.mod h1:r2LvZwhmLLu7QG8p0tiKTHvjlVgXmwfJ83ECoDtNL8w=
+github.com/twharmon/gouid v0.5.0 h1:ZpFSzlZGfz+hcdezpuvAHuw4pwChBieN0oOwk0zFU4o=
+github.com/twharmon/gouid v0.5.0/go.mod h1:5eUXgs/kIrmb2cLyCOD5B78wJSepda2a6Oc08DzamPE=
