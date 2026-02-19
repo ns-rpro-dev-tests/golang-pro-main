@@ -28,7 +28,7 @@
         "gomod"
       ],
       "matchPackageNames": [
-        "^pro-lib$"
+        "/^pro-lib$/"
       ],
       "enabled": false,
     }
