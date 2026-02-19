@@ -12,18 +12,23 @@
         // Matches: replace pro-lib => <module> <version>
         "replace\\s+pro-lib\\s+=>\\s+(?<depName>[^\\s]+)\\s+(?<currentValue>v[^\\s]+)"
       ],
-      "postUpdateOptions": [
-        "gomodTidy"
-      ]
     }
   ],
   "packageRules": [
+    {
+      "matchPackageNames": [
+        "github.com/ns-rpro-dev-tests/golang-pro-lib/libs/src/ns"
+      ],
+      "postUpdateOptions": [
+        "gomodTidy"
+      ],
+    },
     {
       "matchManagers": [
         "gomod"
       ],
       "matchPackageNames": [
-        "pro-lib"
+        "^pro-lib$"
       ],
       "enabled": false,
     }
