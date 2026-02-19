@@ -1,12 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+
   customManagers: [
     {
       customType: "regex",
       description: "Update go.mod replace target for pro-lib",
-      managerFilePatterns: [
-        "go\\.mod"
-      ],
+      managerFilePatterns: [ "go\\.mod" ],
       datasourceTemplate: "go",
       matchStrings: [
         // Matches: replace pro-lib => <module> <version>
@@ -14,34 +13,25 @@
       ],
     }
   ],
+
   "packageRules": [
     {
+      "description": "update go.sum using addition commands after regex manager updates go.mod",
       "matchPackageNames": [
         "/^github\\.com\\/ns-rpro-dev-tests\\/golang-pro-lib\\/libs\\/src\\/ns$/"
       ],
-      "postUpdateOptions": [
-        "gomodTidy"
-      ],
       "commitMessageSuffix": " [tidy]",
       "postUpgradeTasks": {
-        "commands": [
-          "go mod tidy"
-        ],
-        "fileFilters": [
-          "go\\.mod"
-        ],
+        "commands": [ "install-tool golang 1.25.5", "go mod tidy" ], // fails due to missing 'go' binary
+        "fileFilters": [ "go\\.mod" ],
         "executionMode": "update",
-      }
+      },
     },
     {
-      "matchManagers": [
-        "gomod"
-      ],
-      "matchPackageNames": [
-        "/^pro-lib$/"
-      ],
+      "description": "disable the specific library",
+      "matchManagers": [ "gomod" ],
+      "matchPackageNames": [ "/^pro-lib$/" ],
       "enabled": false,
     }
   ]
-  /**/
 }
