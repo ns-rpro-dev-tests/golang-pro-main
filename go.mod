@@ -9,4 +9,4 @@ require (
 
 require github.com/google/go-cmp v0.7.0 // indirect
 
-replace pro-lib => github.com/ns-rpro-dev-tests/golang-pro-lib/libs/src/ns v0.0.0-20260219031232-e6910bd8fb97
+replace pro-lib => github.com/ns-rpro-dev-tests/golang-pro-lib/libs/src/ns v0.0.0-20260219033559-3729073d7b88
