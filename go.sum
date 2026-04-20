@@ -4,3 +4,5 @@ github.com/ns-rpro-dev-tests/golang-pro-lib/libs/src/ns v0.0.0-20260219031232-e6
 github.com/ns-rpro-dev-tests/golang-pro-lib/libs/src/ns v0.0.0-20260219031232-e6910bd8fb97/go.mod h1:r2LvZwhmLLu7QG8p0tiKTHvjlVgXmwfJ83ECoDtNL8w=
 github.com/twharmon/gouid v0.5.0 h1:ZpFSzlZGfz+hcdezpuvAHuw4pwChBieN0oOwk0zFU4o=
 github.com/twharmon/gouid v0.5.0/go.mod h1:5eUXgs/kIrmb2cLyCOD5B78wJSepda2a6Oc08DzamPE=
+github.com/twharmon/gouid v0.6.0 h1:l5Tcn8zXwVtFlbQWPfh6BrltSjcOXXsbT3Tm4NdYgj8=
+github.com/twharmon/gouid v0.6.0/go.mod h1:m1SyQo0sYYbukI1yNZ1WRk980fV2XWBuYGAtMo/AmQ8=
